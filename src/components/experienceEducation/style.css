@@ -1,0 +1,40 @@
+.experience-education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px auto;
+  max-width: 900px;
+}
+
+.section {
+  flex-basis: 45%;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.experience,
+.education {
+  margin-bottom: 20px;
+}
+
+.experience h3,
+.education h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.experience p,
+.education p {
+  color: #999;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .section {
+    flex-basis: 100%;
+  }
+}
