@@ -23,6 +23,6 @@ export const projects = [
     skills: "React, CSS",
     img: hydraLandingPage,
     gitHubLink: "https://github.com/Sevada20/Hydra-Landing-Page-React-CSS",
-    projectLink: "",
+    projectLink: "https://hydra-landing-page-react-css.vercel.app/#!",
   },
 ];
