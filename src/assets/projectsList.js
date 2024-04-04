@@ -1,6 +1,7 @@
 import reactPizzaShop from "../img/projects/pizza-shop.png";
 import vkCopy from "../img/projects/vk.jpg";
 import hydraLandingPage from "../img/projects/hydra.webp";
+import crud from "../img/projects/crud.png";
 
 export const projects = [
   {
@@ -17,12 +18,18 @@ export const projects = [
     gitHubLink: "https://github.com/Sevada20/vk-copy",
     projectLink: "https://glittering-tulumba-07a226.netlify.app/",
   },
-
   {
     title: "Hydra responsive landing page(without functionality)",
     skills: "React, CSS",
     img: hydraLandingPage,
     gitHubLink: "https://github.com/Sevada20/Hydra-Landing-Page-React-CSS",
     projectLink: "https://hydra-landing-page-react-css.vercel.app/#!",
+  },
+  {
+    title: "CRUD",
+    skills: "React, Redux/Toolkit, Firebase, Axios",
+    img: crud,
+    gitHubLink: "https://github.com/Sevada20/Project_CRUD",
+    projectLink: "https://project-crud-two.vercel.app/",
   },
 ];
