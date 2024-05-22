@@ -1,9 +1,7 @@
 .header {
-  padding: 40px 0;
-
+  padding: 4.3rem 0;
   display: flex;
   justify-content: center;
-
   background-color: var(--header-bg);
   background-image: url("../../img//header-bg.png");
   background-repeat: no-repeat;
