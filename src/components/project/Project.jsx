@@ -1,20 +1,21 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../../themeContext/ThemeContext";
+import "./style.css";
 
 const Project = ({ title, img, index }) => {
   const { theme } = useContext(ThemeContext);
   return (
     <Link
       style={{ backgroundColor: theme ? "#555" : "white" }}
-      className='project'
+      className="project"
       to={`/projects/${index}`}
     >
       <li>
-        <img src={img} alt='Project img' className='project__img' />
+        <img src={img} alt="Project img" className="project__img" />
         <h3
           style={{ color: theme ? "white" : "black" }}
-          className='project__title'
+          className="project__title"
         >
           {title}
         </h3>

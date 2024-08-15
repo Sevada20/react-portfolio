@@ -5,10 +5,10 @@ import "./style.css";
 const ExperienceEducation = () => {
   const { theme } = useContext(ThemeContext);
   return (
-    <div className='experience-education-container'>
-      <div className='section'>
+    <div className="experience-education-container">
+      <div className="section">
         <h2 style={{ color: theme ? "#eee" : "#333" }}>Education</h2>
-        <div style={{ color: theme ? "#ccc" : "#667" }} className='education'>
+        <div style={{ color: theme ? "#ccc" : "#667" }} className="education">
           <h3 style={{ color: theme ? "#ccc" : "#667" }}>
             National Polytechnic University of Armenia (NPUA) - Bachelor's
             Degree
@@ -20,7 +20,7 @@ const ExperienceEducation = () => {
             Innovation Center, thus taking my first steps into programming.
           </p>
         </div>
-        <div className='education'>
+        <div className="education">
           <h3>PicsArt Academy - General Programming</h3>
           <p>2021</p>
           <p>
@@ -28,7 +28,7 @@ const ExperienceEducation = () => {
             gaining knowledge and skills in various programming concepts.
           </p>
         </div>
-        <div className='education'>
+        <div className="education">
           <h3>Business Development Group - HTML/CSS, JS</h3>
           <p>June - September 2022</p>
           <p>
@@ -36,7 +36,7 @@ const ExperienceEducation = () => {
             acquiring fundamental web development skills.
           </p>
         </div>
-        <div className='education'>
+        <div className="education">
           <h3>TCO Team - React.js</h3>
           <p>December 2022 - February 2023</p>
           <p>
@@ -45,11 +45,11 @@ const ExperienceEducation = () => {
           </p>
         </div>
       </div>
-      <div className='section'>
+      <div className="section">
         <h2>Experience</h2>
-        <div className='experience'>
+        <div className="experience">
           <h3>Team Telecom - React Intern Developer</h3>
-          <p>2023 - Several months</p>
+          <p>2023</p>
           <p>
             Worked on the Team Energy project, developing various features and
             functionalities using React.js and integrating with APIs. Improved
@@ -61,7 +61,7 @@ const ExperienceEducation = () => {
             and problem-solving skills.
           </p>
         </div>
-        <div className='experience'>
+        <div className="experience">
           <h3>PicsArt Academy - Intern Developer</h3>
           <p>
             <p>April 2024 - Present</p>
@@ -75,6 +75,18 @@ const ExperienceEducation = () => {
           <p>
             Had the opportunity to learn and apply advanced programming concepts
             and problem-solving skills.
+          </p>
+        </div>
+        <div className="experience">
+          <h3>Project CRM in a credit company - React Developer</h3>
+          <p>
+            <p>2024(June) - Present</p>
+          </p>
+          <p>
+            I work remotely on a CRM project for a credit company using React,
+            Redux Toolkit, JSS and other technologies. This project gave me
+            valuable experience in frontend development and the ability to
+            quickly solve problems.
           </p>
         </div>
       </div>
