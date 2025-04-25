@@ -1,11 +1,11 @@
 import ExperienceEducation from "../components/experienceEducation/ExperienceEducation";
-import SkillProgressBar from "../components/skillProgressBar/SkillProgressBar";
+import SkillSection from "../components/SkillSection/SkillSection";
 import "./stylesPages.css";
 
 const About = () => {
   return (
     <div>
-      <h2 className=" title-1">About Me</h2>
+      <h2 className="title-1">About Me</h2>
       <div className="aboutMe">
         <div className="personalDetails">
           <p>
@@ -55,7 +55,7 @@ const About = () => {
           <p>Russian (B2): Intermediate Proficiency</p>
         </div>
       </div>
-      <SkillProgressBar />;
+      <SkillSection />
       <ExperienceEducation />
     </div>
   );

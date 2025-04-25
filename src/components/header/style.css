@@ -7,9 +7,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-
   color: var(--header-text);
   text-align: center;
+  height: calc(100vh - 198px);
 }
 
 .header__wrapper {
@@ -31,7 +31,12 @@
 
 .header__title em {
   font-style: normal;
-  color: var(--accent);
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(90deg, #0495b1, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .header__text {

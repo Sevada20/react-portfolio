@@ -14,9 +14,7 @@ const Header = () => {
         </h1>
         <div className='header__text'>
           <p>
-            I'm a Armenian based React Developer focused on crafting clean &
-            user-friendly experiences, I am passionate about building excellent
-            software that improves the lives of those around me and .
+          I specialize in crafting clean, intuitive, and user-centered web experiences. I'm passionate about building high-quality software that makes a meaningful impact on users' lives.
           </p>
         </div>
         <a href={resume} download='Resume' className='btn'>
