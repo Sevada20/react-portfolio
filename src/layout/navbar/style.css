@@ -52,7 +52,9 @@
 
 .nav-list__link--active::before {
   content: "";
-
+  background: linear-gradient(135deg, #0495b1, #00c6ff);
+  border-radius: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
   position: absolute;
   left: 0;
   top: 100%;

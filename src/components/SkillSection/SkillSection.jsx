@@ -1,10 +1,22 @@
-import React from 'react';
-import SkillsList from '../SkillsList/SkillList';
-import './style.css';
+import React from "react";
+import SkillsList from "../SkillsList/SkillList";
+import "./style.css";
 
 const skills = [
-  'HTML','CSS','JavaScript','TypeScript','React',
-  'Redux','JSS','REST API','Git','Oracle SQL'
+  "HTML",
+  "CSS",
+  "JSS",
+  "SCSS",
+  "Tailwind CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next JS",
+  "Redux",
+
+  "REST API",
+  "Git",
+  "Oracle SQL",
 ];
 
 const SkillSection = () => (
