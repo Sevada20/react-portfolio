@@ -2,13 +2,22 @@ import reactPizzaShop from "../img/projects/pizza-shop.png";
 import vkCopy from "../img/projects/vk.jpg";
 import hydraLandingPage from "../img/projects/hydra.webp";
 import ariSpot from "../img/projects/ariSpot.png";
+import haysell from "../img/projects/haysell.png";
 
 export const projects = [
+  {
+    title: "Haysell",
+    skills: "React,TypeScript, SCSS",
+    img: haysell,
+    projectLink: "https://haysell.com/",
+  },
   {
     title: "AriSpot",
     skills: "React, Redux/Toolkit,TypeScript,JSS Axios",
     img: ariSpot,
     projectLink: "https://arispot.coderepublic.am/",
+    gitHubLink:
+      "https://github.com/Code-Republic-Community/yelp-for-armenia-frontend",
   },
   {
     title: "React pizza shop",

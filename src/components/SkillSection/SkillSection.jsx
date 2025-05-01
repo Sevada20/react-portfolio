@@ -13,9 +13,9 @@ const skills = [
   "React",
   "Next JS",
   "Redux",
-
+  "Redux Toolkit",
   "REST API",
-  "Git",
+  "Git/GitHub",
   "Oracle SQL",
 ];
 

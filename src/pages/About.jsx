@@ -39,7 +39,7 @@ const About = () => {
         <div className="professionalSnapshot">
           <strong>Professional Snapshot</strong>
           <p>
-            With 1+ years of dedicated work experience and a commitment to
+            With 2+ years of dedicated work experience and a commitment to
             continuous learning and growth, I am eager to contribute my skills
             and expertise to diverse projects.
           </p>
@@ -50,9 +50,9 @@ const About = () => {
         </div>
         <div className="languageProficiency">
           <strong>Language Proficiency</strong>
-          <p>Armenian (C2): Fluent</p>
-          <p>English (A1): Basic Proficiency</p>
+          <p>English (A2): Basic Proficiency</p>
           <p>Russian (B2): Intermediate Proficiency</p>
+          <p>Armenian (C2): Fluent</p>
         </div>
       </div>
       <SkillSection />
